@@ -14,7 +14,7 @@ Check out the demo to see how the Caped Crusader’s duds have evolved over the 
 
 ---
 
-#### To Do
+_*To Do*_
 
 - Separate `marks` and `<Slider>` into own Component
 - Add Show/Hide info button for `details` content

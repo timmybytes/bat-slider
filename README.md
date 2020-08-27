@@ -1,6 +1,6 @@
 # The Bat-Slider
 
-![The Bat-Slider Screenshot](https://github.com/timmybytes/react-bat-slider-app/blob/master/src/img/screenshot.png)
+![The Bat-Slider Screenshot](https://github.com/timmybytes/react-bat-slider-app/blob/master/src/img/bat-slider-screenshot2.png)
 
 This is a simple React app to display information on the various Bat-Suits seen in film over the years.
 

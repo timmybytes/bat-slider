@@ -1,0 +1,89 @@
+@import "resets";
+@import "colors";
+@import "slider";
+
+body {
+  background: $ColorBat5;
+  font-family: "Roboto";
+  padding: 2rem 2rem 2rem 2rem;
+  width: 100vw;
+  height: 100vh;
+}
+
+.batslider-container {
+  margin: 0 auto;
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+}
+.batslider-container2 {
+  max-width: 575px;
+  display: flex;
+  margin: 0 auto 20px auto;
+  justify-content: center;
+}
+.batslider-title {
+  background: $ColorBat3;
+  color: $ColorBat1;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.198rem;
+  text-align: center;
+  position: fixed;
+  margin: 0 auto;
+  padding: 8px 0 8px;
+  top: 0;
+  right: 0;
+  left: 0;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.batslider-header {
+  rotate: -2deg;
+  background: $ColorBat3;
+  color: $ColorBat1;
+  font-size: 1.6rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 600;
+  margin: 15px auto;
+  max-width: 400px;
+  padding: 8px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.batslider-content {
+  color: $ColorBat6;
+  display: flex;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  max-width: 400px;
+  margin: 0 auto;
+  // padding: 0 10px;
+  text-align: justify;
+  @media (min-width: 300px) {
+    font-size: 0.95rem;
+  }
+  @media (min-width: 400px) {
+    font-size: 1rem;
+  }
+}
+
+.batslider-img {
+  align-self: center;
+  justify-self: center;
+  box-shadow: 1px 1px 8px $ColorBat3;
+  @media (min-width: 320px) {
+    height: 350px;
+  }
+  @media (min-width: 414px) {
+    height: 400px;
+  }
+  @media (min-width: 700px) {
+    height: 480px;
+    min-width: 340px;
+    max-width: 360px;
+  }
+}

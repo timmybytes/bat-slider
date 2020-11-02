@@ -9,140 +9,58 @@ import Header from './Header';
 // Styling for slider increment marks
 
 const styles = {
-  // Add styles, use spread in marks
+  color: '#fdff00',
+  fontWeight: '200',
+  fontSize: '.85rem',
+  background: '#242424',
+  padding: '2px',
+  transform: 'rotate(-50deg)',
+  transformOrigin: 'left',
 };
 
 const marks = {
   1: {
-    style: {
-      color: '#fdff00',
-      fontWeight: '200',
-      fontSize: '.85rem',
-      background: '#242424',
-      padding: '2px',
-      transform: 'rotate(-50deg)',
-      transformOrigin: 'left',
-    },
+    style: { ...styles },
     label: 1943,
   },
   2: {
-    style: {
-      color: '#fdff00',
-      fontWeight: '200',
-      fontSize: '.85rem',
-      background: '#242424',
-      padding: '2px',
-      transform: 'rotate(-50deg)',
-      transformOrigin: 'left',
-    },
+    style: { ...styles },
     label: 1966,
   },
   3: {
-    style: {
-      color: '#fdff00',
-      fontWeight: '200',
-      fontSize: '.85rem',
-      background: '#242424',
-      padding: '2px',
-      transform: 'rotate(-50deg)',
-      transformOrigin: 'left',
-    },
+    style: { ...styles },
     label: 1989,
   },
   4: {
-    style: {
-      color: '#fdff00',
-      fontWeight: '200',
-      fontSize: '.85rem',
-      background: '#242424',
-      padding: '2px',
-      transform: 'rotate(-50deg)',
-      transformOrigin: 'left',
-    },
+    style: { ...styles },
     label: 1992,
   },
   5: {
-    style: {
-      color: '#fdff00',
-      fontWeight: '200',
-      fontSize: '.85rem',
-      background: '#242424',
-      padding: '2px',
-      transform: 'rotate(-50deg)',
-      transformOrigin: 'left',
-    },
+    style: { ...styles },
     label: 1995,
   },
   6: {
-    style: {
-      color: '#fdff00',
-      fontWeight: '200',
-      fontSize: '.85rem',
-      background: '#242424',
-      padding: '2px',
-      transform: 'rotate(-50deg)',
-      transformOrigin: 'left',
-    },
+    style: { ...styles },
     label: 1997,
   },
   7: {
-    style: {
-      color: '#fdff00',
-      fontWeight: '200',
-      fontSize: '.85rem',
-      background: '#242424',
-      padding: '2px',
-      transform: 'rotate(-50deg)',
-      transformOrigin: 'left',
-    },
+    style: { ...styles },
     label: 2005,
   },
   8: {
-    style: {
-      color: '#fdff00',
-      fontWeight: '200',
-      fontSize: '.85rem',
-      background: '#242424',
-      padding: '2px',
-      transform: 'rotate(-50deg)',
-      transformOrigin: 'left',
-    },
+    style: { ...styles },
     label: 2008,
   },
   9: {
-    style: {
-      color: '#fdff00',
-      fontWeight: '200',
-      fontSize: '.85rem',
-      background: '#242424',
-      padding: '2px',
-      transform: 'rotate(-50deg)',
-      transformOrigin: 'left',
-    },
+    style: { ...styles },
     label: 2016,
   },
   10: {
-    style: {
-      color: '#fdff00',
-      fontWeight: '200',
-      fontSize: '.85rem',
-      background: '#242424',
-      padding: '2px',
-      transform: 'rotate(-50deg)',
-      transformOrigin: 'left',
-    },
+    style: { ...styles },
     label: 2017,
   },
   11: {
-    style: {
-      color: '#fdff00',
-      fontWeight: '200',
-      fontSize: '.85rem',
-      background: '#242424',
-      padding: '2px',
-      transform: 'rotate(-50deg)',
-      transformOrigin: 'left',
-    },
+    style: { ...styles },
     label: 2021,
   },
 };

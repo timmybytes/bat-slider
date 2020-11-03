@@ -14,6 +14,7 @@ import batman2021 from '../img/batman-2021.png';
 function SuitImg(props) {
   // TODO: Tests
   // console.log(`SuitImg: ${props.suitImgYear}`);
+  console.log(`SuitImg: ${props.suitImgYear}`);
   return (
     <>
       <img

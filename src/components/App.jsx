@@ -7,7 +7,6 @@ import SuitImg from './SuitImg';
 import Header from './Header';
 
 // Styling for slider increment marks
-
 const styles = {
   color: '#fdff00',
   fontWeight: '200',
@@ -18,6 +17,7 @@ const styles = {
   transformOrigin: 'left',
 };
 
+// Slider marks for year, triggers corresponding image
 const marks = {
   1: {
     style: { ...styles },
@@ -71,24 +71,25 @@ export default function App() {
   const [suitYear, setSuityear] = useState(1943);
 
   function handleChange(e) {
+    // TODO: Tests for change/click
     // console.log(Batsuits.batsuits[e - 1].title);
     setSuitTitle(Batsuits.batsuits[e - 1].title);
     // console.log(Batsuits.batsuits[e - 1].detail);
     setSuitDetail(Batsuits.batsuits[e - 1].detail);
     // console.log(Batsuits.batsuits[e - 1].year);
     setSuityear(Batsuits.batsuits[e - 1].year);
-
-    // console.log(marks['1'].style);
+    // TODO: Tests for mark styles
+    console.log(marks[e - 1].style);
     // console.log(marks['1'].label);
   }
 
   return (
     <div>
-      <h1 className='batslider-title'>The Bat-Slider: Batsuits in Film</h1>
-      <div className='batslider-container2'>
+      <h1 className="batslider-title">The Bat-Slider: Batsuits in Film</h1>
+      <div className="batslider-container2">
         <Slider
           style={{ maxWidth: '400px' }}
-          className='batslider-slider'
+          className="batslider-slider"
           min={1}
           max={11}
           marks={marks}
@@ -97,11 +98,11 @@ export default function App() {
           defaultValue={1}
         />
       </div>
-      <div className='batslider-container'>
+      <div className="batslider-container">
         <SuitImg suitImgYear={suitYear} />
       </div>
       <Header suitTitle={suitTitle} suitYear={suitYear} />
-      <p className='batslider-content'>{suitDetail}</p>
+      <p className="batslider-content">{suitDetail}</p>
     </div>
   );
 }

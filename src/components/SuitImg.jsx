@@ -1,12 +1,11 @@
 import React from 'react';
 
 function SuitImg(props) {
-  console.log(`SuitImg: ${props.suitImgYear}`);
+  // console.log(`SuitImg: ${props.suitImgYear}`);
   return (
     <>
       <img
         style={{ display: props.suitImgYear === 1943 ? 'inherit' : 'none' }}
-        // style={{ display: 'inline' }}
         className='batslider-img'
         src={require('../img/batman-1943.jpg')}
         alt='1943 batsuit'

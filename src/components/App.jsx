@@ -71,9 +71,15 @@ export default function App() {
   const [suitYear, setSuityear] = useState(1943);
 
   function handleChange(e) {
+    console.log(Batsuits.batsuits[e - 1].title);
     setSuitTitle(Batsuits.batsuits[e - 1].title);
+    console.log(Batsuits.batsuits[e - 1].detail);
     setSuitDetail(Batsuits.batsuits[e - 1].detail);
+    console.log(Batsuits.batsuits[e - 1].year);
     setSuityear(Batsuits.batsuits[e - 1].year);
+
+    // console.log(marks['1'].style);
+    // console.log(marks['1'].label);
   }
 
   return (

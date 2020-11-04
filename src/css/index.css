@@ -1,6 +1,5 @@
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -29,14 +28,12 @@ div.rc-slider-handle {
   height: 20px;
   border: solid 2px #fdff00;
   background-color: #242424;
-  -webkit-box-shadow: 1px 1px 3px #242424;
-          box-shadow: 1px 1px 3px #242424;
+  box-shadow: 1px 1px 3px #242424;
 }
 
 div.rc-slider-handle-dragging.rc-slider-handle-dragging.rc-slider-handle-dragging {
   border: solid 2px #fdff00;
-  -webkit-box-shadow: 1px 1px 3px #242424;
-          box-shadow: 1px 1px 3px #242424;
+  box-shadow: 1px 1px 3px #242424;
 }
 
 div.rc-slider-handle-click-focused:focus {
@@ -58,7 +55,6 @@ div.rc-slider-mark {
   width: 400px;
   font-size: 12px;
 }
-
 @media (min-width: 100px) {
   div.rc-slider-mark {
     left: -3px;
@@ -67,7 +63,6 @@ div.rc-slider-mark {
     bottom: 25px;
   }
 }
-
 @media (min-width: 375px) {
   div.rc-slider-mark {
     bottom: 22px;
@@ -75,7 +70,6 @@ div.rc-slider-mark {
     font-size: 14px;
   }
 }
-
 @media (min-width: 413px) {
   div.rc-slider-mark {
     left: 7px;
@@ -83,7 +77,6 @@ div.rc-slider-mark {
     font-size: 14px;
   }
 }
-
 @media (min-width: 490px) {
   div.rc-slider-mark {
     bottom: 22px;
@@ -117,7 +110,7 @@ div.rc-slider-dot-active {
 
 body {
   background: #505c7c;
-  font-family: "Roboto";
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
   padding: 2rem 2rem 2rem 2rem;
   width: 100vw;
   height: 100vh;
@@ -126,23 +119,15 @@ body {
 .batslider-container {
   margin: 0 auto;
   max-width: 600px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .batslider-container2 {
   max-width: 575px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin: 0 auto 20px auto;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .batslider-title {
@@ -167,7 +152,7 @@ body {
   background: #242424;
   color: #fdff00;
   font-size: 1.6rem;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
   font-weight: 600;
   margin: 15px auto;
   max-width: 400px;
@@ -178,23 +163,20 @@ body {
 
 .batslider-content {
   color: #dfdddd;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
   font-weight: 400;
+  line-height: 1.6;
   line-height: 1.5;
   max-width: 400px;
   margin: 0 auto;
   text-align: justify;
 }
-
 @media (min-width: 300px) {
   .batslider-content {
     font-size: 0.95rem;
   }
 }
-
 @media (min-width: 400px) {
   .batslider-content {
     font-size: 1rem;
@@ -202,27 +184,20 @@ body {
 }
 
 .batslider-img {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  -ms-grid-column-align: center;
-      justify-self: center;
-  -webkit-box-shadow: 1px 1px 8px #242424;
-          box-shadow: 1px 1px 8px #242424;
+  align-self: center;
+  justify-self: center;
+  box-shadow: 1px 1px 8px #242424;
 }
-
 @media (min-width: 320px) {
   .batslider-img {
     height: 350px;
   }
 }
-
 @media (min-width: 414px) {
   .batslider-img {
     height: 400px;
   }
 }
-
 @media (min-width: 700px) {
   .batslider-img {
     height: 480px;
@@ -230,4 +205,5 @@ body {
     max-width: 360px;
   }
 }
+
 /*# sourceMappingURL=index.css.map */

@@ -10,7 +10,7 @@ The goal of the project was to get more practice using state in React, JSON obje
 
 ## Usage
 
-The Bat-Slider's base is built on top of `create-react-app` with some modified scripts.
+The Bat-Slider's base is built on top of [`create-react-app`](https://create-react-app.dev/) with some modified scripts.
 
 ### Getting Started
 

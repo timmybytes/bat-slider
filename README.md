@@ -10,12 +10,6 @@ Bat-Slider uses [`rc-slider`](https://github.com/react-component/slider) and Rea
 
 The goal of the project was to get more practice using state in React, JSON objects, CSS Flexbox, npm, and GitHub deployment, while having a little fun with my love for superheroes.
 
-## Demo
-
-Check out the demo to see how the Caped Crusader’s duds have evolved over the years.
-
-[Demo](https://timmybytes.github.io/react-bat-slider-app/)
-
 ## Usage
 
 ### Getting Started
@@ -56,6 +50,12 @@ npm run scss:watch
 By default, css is compiled as compressed, but you can tailor this to your liking in the `package.json` settings.
 
 **Note:** The project uses the [`sass`](https://www.npmjs.com/package/sass) package in favor of the now deprecated `node-sass` for SCSS.
+
+## Demo
+
+Check out the demo to see how the Caped Crusader’s duds have evolved over the years.
+
+[Demo](https://timmybytes.github.io/react-bat-slider-app/)
 
 ## License
 

@@ -79,7 +79,7 @@ export default function App() {
     // console.log(Batsuits.batsuits[e - 1].year);
     setSuityear(Batsuits.batsuits[e - 1].year);
     // TODO: Tests for mark styles
-    console.log(marks[e - 1].style);
+    // console.log(marks[e - 1].style);
     // console.log(marks['1'].label);
   }
 

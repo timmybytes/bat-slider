@@ -51,14 +51,6 @@ By default, css is compiled as compressed, but you can tailor this to your likin
 
 **Note:** The project uses the [`sass`](https://www.npmjs.com/package/sass) package in favor of the now deprecated `node-sass` for SCSS.
 
-## Bat Palette
-
-<div style="display: inline-block; height: 40px; width: 40px; margin: 5px; border-radius: 50%; background: #fdff00"></div>
-<div style="display: inline-block; height: 40px; width: 40px;  margin: 5px;border-radius: 50%; background: #988829"></div>
-<div style="display: inline-block; height: 40px; width: 40px;  margin: 5px;border-radius: 50%; background: #242424"></div>
-<div style="display: inline-block; height: 40px; width: 40px;  margin: 5px;border-radius: 50%; background: #505c7c;"></div>
-<div style="display: inline-block;height: 40px; width: 40px;  margin: 5px;border-radius: 50%; background: #dfdddd;"></div>
-
 ## Demo
 
 Check out the demo to see how the Caped Crusader’s duds have evolved over the years.

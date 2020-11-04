@@ -1,6 +1,6 @@
 {
-  "name": "react-bat-slider-app",
-  "homepage": "https://timmybytes.github.io/react-bat-slider-app",
+  "name": "bat-slider",
+  "homepage": "https://timmybytes.github.io/bat-slider",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

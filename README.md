@@ -64,10 +64,12 @@ npm run a11y
 
 ### Build & Deploy
 
+The Bat-Slider uses the [`gh-pages`](https://www.npmjs.com/package/gh-pages) package for easy deployment.
+
 ```sh
 # Compiles SCSS into CSS, builds assets for deployment
 npm run predeploy
-# Builds and deploys to a `gh-pages` branch by default
+# Builds and deploys to a `deploy` branch by default
 # Add your preferred homepage for deployment in package.json
 npm run deploy
 ```

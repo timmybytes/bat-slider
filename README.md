@@ -54,9 +54,8 @@ By default, css is compiled as compressed, but you can tailor this to your likin
 ## Demo
 
 Check out the demo to see how the Caped Crusader’s duds have evolved over the years.
-<br /><br /> <button>
+
 [Demo](https://timmybytes.github.io/react-bat-slider-app/)
-</button>
 
 ## License
 

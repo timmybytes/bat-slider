@@ -17,7 +17,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -b main",
+    "deploy": "gh-pages -d build",
     "scss": "sass --style=compressed src/scss:src/css",
     "scss:watch": "sass --watch src/scss/:src/css/",
     "start": "react-scripts start",

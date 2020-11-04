@@ -16,10 +16,10 @@
     "sass": "^1.28.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "scss": "sass --style=compressed src/scss:src/css",
     "scss:watch": "sass --watch src/scss/:src/css/",
+    "predeploy": "npm run scss && npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

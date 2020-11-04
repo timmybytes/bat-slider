@@ -8,6 +8,8 @@ Bat-Slider uses [`rc-slider`](https://github.com/react-component/slider) and Rea
 
 The goal of the project was to get more practice using state in React, JSON objects, CSS Flexbox, npm, and GitHub deployment, while having a little fun with my love for superheroes.
 
+**[Demo](https://timmybytes.github.io/react-bat-slider-app/)**
+
 ## Usage
 
 The Bat-Slider's base is built on top of [`create-react-app`](https://create-react-app.dev/) with some modified scripts.
@@ -70,13 +72,10 @@ npm run predeploy
 npm run deploy
 ```
 
-
-
-## Demo
-
-Check out the demo to see how the Caped Crusader’s duds have evolved over the years.
-[Demo](https://timmybytes.github.io/react-bat-slider-app/)
-
 ## License
 
-Bat-Slider is under an MIT license.
+Bat-Slider is available under an MIT license.
+
+## Contributing
+
+Feel free to submit a Pull Request or open an issue for a feature request.

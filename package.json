@@ -20,7 +20,7 @@
     "scss:watch": "sass --watch src/scss/:src/css/",
     "a11y": "lighthouse http://localhost:3000/bat-slider --output html --output-path='./tests/lighthouse/lighthouse-test.html' --view",
     "predeploy": "npm run scss && npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build -b deploy",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

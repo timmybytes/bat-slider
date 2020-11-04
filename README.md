@@ -14,28 +14,50 @@ The Bat-Slider's base is built on top of [`create-react-app`](https://create-rea
 
 ### Getting Started
 
-Fork and/or clone locally
+Fork and/or clone the repo locally.
 
 ```sh
 git clone https://github.com/timmybytes/bat-slider.git
 ```
 
-Start a local server for see chanes live
+Install dependencies.
+
+```sh
+cd bat-slider/
+npm install
+```
+
+### Development
+
+Start a local server for see changes live.
 
 ```sh
 # Starts the local development server
 npm start
 ```
 
-### SCSS
+#### SCSS
 
-The Bat-Slider uses [SCSS](https://sass-lang.com) for styling, which needs to be compiled to CSS before it can be valid in a browser
+The Bat-Slider uses [SCSS](https://sass-lang.com) for styling, which needs to be compiled to CSS before it can be valid in a browser.
 
 ```sh
 # Compile SCSS to CSS -- default is compressed CSS output
 npm run scss
 # Compile live on each change
 npm run scss:watch
+```
+
+#### Accessibility Tests
+
+The Bat-Slider uses a [Lighthouse](https://developers.google.com/web/tools/lighthouse/) script to check for accessibility and performance issues.
+
+**Note**: Before running Lighthouse, make sure a local server is running with `npm start`.
+
+```sh
+# Run a Lighthouse test. By default, the test results will
+# output in HTML format to /tests/lighthouse/lighthouse-test.html
+# and displays the test results in your browser
+npm run a11y
 ```
 
 ### Build & Deploy

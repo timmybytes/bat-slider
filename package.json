@@ -18,12 +18,14 @@
   "scripts": {
     "scss": "sass --style=compressed src/scss:src/css",
     "scss:watch": "sass --watch src/scss/:src/css/",
-    "a11y": "lighthouse http://localhost:3000/bat-slider --output html --output-path='./tests/lighthouse/lighthouse-test.html' --view",
     "predeploy": "npm run scss && npm run build",
     "deploy": "gh-pages -d build -b deploy",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "lighthouse http://127.0.0.1:5501/ --output-path=./tests/lighthouse-results.html --view",
+    "test:a11y": "lighthouse http://127.0.0.1:5501/ --only-categories=accessibility --output-path=./tests/lighthouse-a11y-results.html --view",
+    "test:perform": "lighthouse http://127.0.0.1:5501/ --only-categories=performance,best-practices --output-path=./tests/lighthouse-perform-results.html --view",
+    "test:react": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

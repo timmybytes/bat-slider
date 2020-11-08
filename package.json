@@ -22,9 +22,9 @@
     "deploy": "gh-pages -d build -b deploy",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "lighthouse http://127.0.0.1:5501/ --output-path=./tests/lighthouse-results.html --view",
-    "test:a11y": "lighthouse http://127.0.0.1:5501/ --only-categories=accessibility --output-path=./tests/lighthouse-a11y-results.html --view",
-    "test:perform": "lighthouse http://127.0.0.1:5501/ --only-categories=performance,best-practices --output-path=./tests/lighthouse-perform-results.html --view",
+    "test": "npm run start & lighthouse http://localhost:3000/ --output-path=./tests/lighthouse-results.html --view",
+    "test:a11y": "npm run start & lighthouse http://localhost:3000/ --only-categories=accessibility --output-path=./tests/lighthouse-a11y-results.html --view",
+    "test:perform": "npm run start & lighthouse http://localhost:3000/ --only-categories=performance,best-practices --output-path=./tests/lighthouse-perform-results.html --view",
     "test:react": "react-scripts test",
     "eject": "react-scripts eject"
   },

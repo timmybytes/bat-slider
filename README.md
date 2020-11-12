@@ -2,17 +2,15 @@
 
 ![The Bat-Slider Screenshot](./src/img/bat-slider-screenshot.png)
 
-This is a simple React app to display information on the various Bat-Suits seen in film over the years.
-
-Bat-Slider uses [`rc-slider`](https://github.com/react-component/slider) and React Hooks to dynamically display content based on the many Batman suits seen in film since 1943.
+This is a React SPA to display information on the various Bat-Suits seen in film over the years. When you need fast information on Bat-Suits, you need the Bat-Slider.
 
 The goal of the project was to get more practice using state in React, JSON objects, CSS Flexbox, npm, and GitHub deployment, while having a little fun with my love for superheroes.
 
-**[Demo](https://timmybytes.github.io/react-bat-slider-app/)**
+[Demo](https://timmybytes.github.io/react-bat-slider-app/)
 
 ## Usage
 
-The Bat-Slider's base is built on top of [`create-react-app`](https://create-react-app.dev/) with some modified scripts.
+The Bat-Slider is bootstrapped from [`create-react-app`](https://create-react-app.dev/) with some modified scripts.
 
 ### Getting Started
 
@@ -34,7 +32,6 @@ npm install
 Start a local server for see changes live.
 
 ```sh
-# Starts the local development server
 npm start
 ```
 
@@ -76,7 +73,7 @@ npm run deploy
 
 ## License
 
-Bat-Slider is available under an MIT license.
+Bat-Slider is available under an [MIT license](./LICENSE.md).
 
 ## Contributing
 

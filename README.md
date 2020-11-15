@@ -1,3 +1,23 @@
+<h1>
+<img src="./src/img/bat-slider-header.png" />
+</h1>
+
+<div align="center">
+  <img src="https://img.shields.io/github/package-json/v/timmybytes/bat-slider" alt="GitHub package.json version" />
+  <img src="https://scrutinizer-ci.com/g/timmybytes/bat-slider/badges/quality-score.png?b=dev" alt="Scrutinizer badge" />
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/timmybytes/bat-slider">
+  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/timmybytes/bat-slider">
+</div>
+
+<div align="center">
+  <strong>A Bat-Suit React SPA</strong>
+</div>
+
+<p align="center">
+  <sub>Built with ❤︎ by
+  <a href="https://timmybytes.com">Timothy Merritt</a>
+</div>
+
 # The Bat-Slider
 
 ![The Bat-Slider Screenshot](./src/img/bat-slider-screenshot.png)

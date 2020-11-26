@@ -1,6 +1,6 @@
 <h1>
 <img src="./src/img/bat-slider-logo.png" />
-</h1>Haha 
+</h1>
 
 <div align="center">
   <img src="https://img.shields.io/github/package-json/v/timmybytes/bat-slider" alt="GitHub package.json version" />
